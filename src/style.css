@@ -1,0 +1,124 @@
+main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  margin-top: 210px;
+}
+
+body {
+  background: #f5f7fb;
+}
+
+h1 {
+  text-align: center;
+}
+
+.quizzPage {
+  /* border: 2px solid red; */
+  text-align: center;
+  padding-bottom: 30px;
+  margin: auto 200px;
+}
+
+.oneField {
+  /* border: 2px solid greenyellow; */
+  padding-bottom: 0px;
+  text-align: left;
+  margin: auto 80px;
+  padding-top: 0px;
+}
+
+.checkAnswers {
+  /* border: 2px solid blue; */
+  width: fit-content;
+  padding: 0.6rem 2rem;
+  border-radius: 10px;
+  background-color: #4d5b9e;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.landingButton {
+  /* border: 2px solid blue; */
+  width: fit-content;
+  padding: 0.6rem 2rem;
+  border-radius: 10px;
+  background-color: #4d5b9e;
+  color: white;
+  cursor: pointer;
+  margin: auto auto;
+  margin-top: 20px;
+}
+
+.answerBox {
+  height: 0.5rem;
+  width: fit-content;
+  min-width: 3.5rem;
+  padding: 0.5rem;
+  margin-right: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.answers {
+  display: flex;
+  flex-direction: row;
+}
+
+.ansValue {
+  font-size: 1rem;
+  color: #293264;
+  font-weight: bold;
+}
+
+.question {
+  color: #293264;
+  font-size: 1.3rem;
+}
+
+.correctAnswer {
+  background-color: #f5f7fb;
+  border: 0px;
+  opacity: 0.4;
+}
+
+.playAgain {
+  padding-top: 10px;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.youScored {
+  /* border: 2px solid pink; */
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.playAgainButton {
+  /* border: 2px solid yellow; */
+  width: fit-content;
+  padding: 0.6rem 2rem;
+  border-radius: 10px;
+  background-color: #4d5b9e;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.line {
+  margin: auto auto;
+  width: 680px;
+  height: 0px;
+  left: 75px;
+  top: 468px;
+  border: 0.794239px solid #dbdef0;
+}
